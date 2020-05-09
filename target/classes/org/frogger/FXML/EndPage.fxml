@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="815.0" prefWidth="576.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.frogger.gameController.EndPageController">
+   <stylesheets>
+   		<URL value="@../css/display.css" />
+   </stylesheets> 
+   <children>
+      <ImageView fitHeight="815.0" fitWidth="576.0">
+         <image>
+            <Image url="@../image/background/BG.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="48.0" layoutY="636.0" mnemonicParsing="false" onAction="#changeTOHighScorePage" prefHeight="35.0" prefWidth="240.0" text="High Scores">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Text fx:id="text1" fill="WHITE" layoutX="86.0" layoutY="502.0" strokeType="OUTSIDE" strokeWidth="0.0" text="You have passed the game !">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Text fx:id="text2" fill="WHITE" layoutX="183.0" layoutY="548.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Your score is :">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Label fx:id="finalScoreLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="206.0" layoutY="561.0" prefHeight="91.0" prefWidth="159.0" text="Label" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+      <Button layoutX="323.0" layoutY="636.0" mnemonicParsing="false" onAction="#quitGame" prefHeight="59.0" prefWidth="193.0" text="QUIT !">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="202.0" fitWidth="459.0" layoutX="59.0" layoutY="163.0">
+         <image>
+            <Image url="@../image/background/avengers.gif" />
+         </image>
+      </ImageView>
+      <Text fx:id="text3" fill="WHITE" layoutX="130.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Congratulations" textAlignment="CENTER">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

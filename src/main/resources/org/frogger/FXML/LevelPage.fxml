@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.frogger.gameController.LevelPageController">
+   <stylesheets>
+   		<URL value="@../css/display.css" />
+   </stylesheets>
+   <children>
+      <ImageView fitHeight="815.0" fitWidth="576.0">
+         <image>
+            <Image url="@../image/background/BG.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="138.0" layoutY="480.0" mnemonicParsing="false" onAction="#changeToEasyLevel" prefHeight="60.0" prefWidth="300.0" text="EASY   MODE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="138.0" layoutY="552.0" mnemonicParsing="false" onAction="#changeToMediumLevel" prefHeight="60.0" prefWidth="300.0" text="MEDIUM MODE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="138.0" layoutY="627.0" mnemonicParsing="false" onAction="#changeToHardLevel" prefHeight="60.0" prefWidth="300.0" text="HARD   MODE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="314.0" fitWidth="314.0" layoutX="131.0" layoutY="94.0">
+         <image>
+            <Image url="@../image/background/uncle.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

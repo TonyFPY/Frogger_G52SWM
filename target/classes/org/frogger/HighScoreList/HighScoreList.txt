@@ -1,0 +1,20 @@
+Iron Man
+800
+Captain America
+750
+Captain Marvel
+750
+Black Panther
+700
+Thor
+700
+Vision
+700
+Black Widow
+680
+Hulk
+650
+Groot
+500
+Dr.Strange
+450

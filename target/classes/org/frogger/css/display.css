@@ -1,0 +1,52 @@
+
+@font-face {
+	src: url('../font/arcade.ttf');
+}
+
+.button {
+    -fx-text-fill: white;
+    -fx-font-family: "Arcade";
+    -fx-font-size: 32px;
+    -fx-text-color: white;
+    -fx-background-color:transparent;
+}
+
+.button:hover {
+	-fx-font-size: 36px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.label{
+	-fx-font-family: "Arcade";
+	-fx-font-size: 30px;
+    -fx-font-weight: bold;
+    -fx-text-color: white;
+}
+
+#playLabel{
+	-fx-font-family: "Arcade";
+	-fx-font-size: 20px;
+    -fx-text-color: white;
+}
+
+#finalScoreLabel{
+	-fx-font-family: "Arcade";
+	-fx-font-size: 64px;
+    -fx-font-weight: bold;
+    -fx-text-color: white;
+}
+
+#text1,#text2,#text3{
+	-fx-text-fill: white;
+    -fx-font-family: "Arcade";
+    -fx-font-size: 30px;
+}
+
+#text3{
+	-fx-text-fill: white;
+    -fx-font-family: "Arcade";
+    -fx-font-size: 48px;
+}
+
+
